@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "347396795346",
+    "firebase_url": "https://seatforu-3d3cb-default-rtdb.firebaseio.com",
+    "project_id": "seatforu-3d3cb",
+    "storage_bucket": "seatforu-3d3cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:347396795346:android:f9688625a6ad1a69eeb60b",
+        "android_client_info": {
+          "package_name": "com.example.seatforu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "347396795346-nuva1ntmelr3kbodtdoqtmierskdq1hs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmdffE9sn52JU5uuUtOKv_FWxAcvL3BZk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "347396795346-nuva1ntmelr3kbodtdoqtmierskdq1hs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
