@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp" >
+
+    <TextView
+        android:id="@+id/introduce1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="원하는 자리, 훌륭한 식사"
+        android:textAlignment="textEnd"
+        android:textColor="#888888"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/logo01"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:text="Seat For U"
+        android:textAlignment="textEnd"
+        android:textColor="#00BCD4"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editTextPhone"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_margin="5dp"
+            android:ems="11"
+            android:hint="휴대폰 번호"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_margin="5dp"
+            android:ems="12"
+            android:hint="비밀번호"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/loginBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="50dp"
+            android:backgroundTint="#CFF0FF"
+            android:text="로그인"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/signupBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#FCFCFC"
+            android:text="회원가입"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/find_passBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="50dp"
+            android:layout_weight="1"
+            android:backgroundTint="#FFFFFF"
+            android:text="비밀번호 찾기"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/signInquiryBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#FFFFFF"
+            android:text="회원 가입 문의"
+            android:textColor="#000000"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/homeBtn5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#FFFFFF"
+            android:text="홈"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            app:icon="@drawable/home_icon"
+            app:iconGravity="top"
+            app:iconSize="35sp"
+            app:iconTint="#000000" />
+
+        <Button
+            android:id="@+id/searchBtn5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#FFFFFF"
+            android:text="검색"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            app:icon="@drawable/search_icon"
+            app:iconGravity="textTop"
+            app:iconSize="35sp"
+            app:iconTint="#000000" />
+
+        <Button
+            android:id="@+id/listBtn5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#FFFFFF"
+            android:text="찜"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            app:icon="@drawable/mark_icon"
+            app:iconGravity="textTop"
+            app:iconSize="35sp"
+            app:iconTint="#000000" />
+
+        <Button
+            android:id="@+id/calBtn5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#FFFFFF"
+            android:text="달력"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:icon="@drawable/calendar_icon"
+            app:iconGravity="textTop"
+            app:iconSize="35sp"
+            app:iconTint="#000000" />
+
+        <Button
+            android:id="@+id/signBtn5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#00BCD4"
+            android:text="가입"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:icon="@drawable/user_image"
+            app:iconGravity="textTop"
+            app:iconSize="35sp"
+            app:iconTint="#FFFFFF" />
+    </LinearLayout>
+
+</LinearLayout>

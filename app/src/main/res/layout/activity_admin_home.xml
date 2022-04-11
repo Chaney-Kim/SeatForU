@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:backgroundTint="#03A9F4"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/storeInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#FFFFFF"
+            android:text="가게 정보"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:icon="@drawable/manager_icon"
+            app:iconGravity="textTop"
+            app:iconSize="50sp"
+            app:iconTint="#000000" />
+
+        <Button
+            android:id="@+id/tableEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#FFFFFF"
+            android:text="테이블 편집기"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:icon="@drawable/table_icon"
+            app:iconGravity="textTop"
+            app:iconSize="50sp"
+            app:iconTint="#000000" />
+
+        <Button
+            android:id="@+id/storeManage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#FFFFFF"
+            android:text="예약 관리"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:icon="@drawable/reserved_icon"
+            app:iconGravity="textTop"
+            app:iconSize="50sp"
+            app:iconTint="#000000" />
+
+        <Button
+            android:id="@+id/logoutA_Btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#FFFFFF"
+            android:text="로그아웃"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:icon="@drawable/logout_icon"
+            app:iconGravity="textTop"
+            app:iconSize="50sp"
+            app:iconTint="#000000" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:verticalScrollbarPosition="defaultPosition"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:text="검색하기"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/resetBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#FFFFFF"
+                android:text="초기화"
+                android:textColor="#00BCD4"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                app:icon="@drawable/reset_image"
+                app:iconPadding="3dp"
+                app:iconTint="#00BCD4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/afrBtn"
+                android:layout_width="48dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#FFFFFF"
+                android:text="검"
+                app:icon="@drawable/back_img"
+                app:iconSize="30sp"
+                app:iconTint="#00BCD4" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="지역/음식종류/레스토랑 검색"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/calBtn1"
+                android:layout_width="48dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#FFFFFF"
+                android:text="달"
+                app:icon="@drawable/back_img"
+                app:iconSize="30sp"
+                app:iconTint="#00BCD4" />
+
+            <Button
+                android:id="@+id/calBtn2"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#FFFFFF"
+                android:text="3/15(화)/2명/오후 7:00"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/calBtn3"
+                android:layout_width="48dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00BCD4"
+                android:text=">"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/filterBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FCFCFC"
+            android:text="필터"
+            android:textColor="#00BCD4"
+            app:icon="@drawable/filter_image"
+            app:iconTint="#00BCD4" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/searchBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="5dp"
+        android:backgroundTint="#00BCD4"
+        android:text="검색"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/homeBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#FFFFFF"
+            android:text="홈"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            app:icon="@drawable/home_icon"
+            app:iconGravity="top"
+            app:iconSize="35sp"
+            app:iconTint="#000000" />
+
+        <Button
+            android:id="@+id/searchBtn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#00BCD4"
+            android:text="검색"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:icon="@drawable/search_icon"
+            app:iconGravity="top"
+            app:iconSize="35sp"
+            app:iconTint="#FFFFFF" />
+
+        <Button
+            android:id="@+id/listBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#FFFFFF"
+            android:text="찜"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:icon="@drawable/mark_icon"
+            app:iconGravity="top"
+            app:iconSize="35sp"
+            app:iconTint="#000000" />
+
+        <Button
+            android:id="@+id/calBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#FFFFFF"
+            android:text="달력"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:icon="@drawable/calendar_icon"
+            app:iconGravity="top"
+            app:iconSize="35sp"
+            app:iconTint="#000000" />
+
+        <Button
+            android:id="@+id/signBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#FFFFFF"
+            android:text="가입"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:icon="@drawable/user_image"
+            app:iconGravity="top"
+            app:iconSize="35sp"
+            app:iconTint="#000000" />
+    </LinearLayout>
+
+</LinearLayout>

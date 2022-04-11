@@ -18,8 +18,8 @@ public class DebugMainActivity extends AppCompatActivity {
 
         goto_home.setOnClickListener(v -> {
             // 상황에 맞게 작성하세요
-//            Intent intent = new Intent(DebugMainActivity.class, 홈화면액티비티.class);
-//            startActivity(intent);
+            Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
+            startActivity(intent);
         });
 
         goto_editor.setOnClickListener(v -> {

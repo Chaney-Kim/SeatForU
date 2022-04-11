@@ -18,6 +18,53 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".table_editer"
+            android:exported="false" />
+        <activity
+            android:name=".check_reservation"
+            android:exported="false" />
+        <activity
+            android:name=".store_info"
+            android:exported="false" />
+        <activity
+            android:name=".adminHome"
+            android:exported="false" />
+        <activity
+            android:name=".myList"
+            android:exported="false" />
+        <activity
+            android:name=".farea"
+            android:exported="false" />
+        <activity
+            android:name=".fenvironment"
+            android:exported="false" />
+        <activity
+            android:name=".ffood"
+            android:exported="false" />
+        <activity
+            android:name=".f_table"
+            android:exported="false" />
+        <activity
+            android:name=".payment"
+            android:exported="false" />
+        <activity
+            android:name=".search_detail"
+            android:exported="false" />
+        <activity
+            android:name=".filter"
+            android:exported="false" />
+        <activity
+            android:name=".signUp"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SearchActivity"
+            android:exported="true" />
+
         <activity
             android:name=".EditorActivity"
             android:exported="true">
