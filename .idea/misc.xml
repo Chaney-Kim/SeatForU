@@ -4,13 +4,31 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/kal02/AndroidStudioProjects/SeatForU/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.362" />
-        <entry key="..\:/Users/kal02/AndroidStudioProjects/SeatForU/app/src/main/res/layout/activity_editor.xml" value="0.4421875" />
+        <entry key="..\:/Users/kal02/AndroidStudioProjects/SeatForU/app/src/main/res/drawable/border_sidetab.xml" value="0.444" />
+        <entry key="..\:/Users/kal02/AndroidStudioProjects/SeatForU/app/src/main/res/drawable/border_sidetab_btns.xml" value="0.311" />
+        <entry key="..\:/Users/kal02/AndroidStudioProjects/SeatForU/app/src/main/res/drawable/border_sidetab_category.xml" value="0.44" />
+        <entry key="..\:/Users/kal02/AndroidStudioProjects/SeatForU/app/src/main/res/drawable/ic_baseline_arrow_forward_ios_24.xml" value="0.44" />
+        <entry key="..\:/Users/kal02/AndroidStudioProjects/SeatForU/app/src/main/res/drawable/ic_baseline_category_24.xml" value="0.4305" />
+        <entry key="..\:/Users/kal02/AndroidStudioProjects/SeatForU/app/src/main/res/drawable/ic_baseline_crop_square_24.xml" value="0.444" />
+        <entry key="..\:/Users/kal02/AndroidStudioProjects/SeatForU/app/src/main/res/drawable/ic_baseline_keyboard_arrow_up_24.xml" value="0.44" />
+        <entry key="..\:/Users/kal02/AndroidStudioProjects/SeatForU/app/src/main/res/drawable/ic_baseline_layers_24.xml" value="0.323" />
+        <entry key="..\:/Users/kal02/AndroidStudioProjects/SeatForU/app/src/main/res/drawable/ic_launcher_background.xml" value="0.311" />
+        <entry key="..\:/Users/kal02/AndroidStudioProjects/SeatForU/app/src/main/res/layout/activity_debugmain.xml" value="0.3203125" />
+        <entry key="..\:/Users/kal02/AndroidStudioProjects/SeatForU/app/src/main/res/layout/activity_editor.xml" value="0.25" />
+        <entry key="..\:/Users/kal02/AndroidStudioProjects/SeatForU/app/src/main/res/layout/activity_editor_2.xml" value="0.4671875" />
+        <entry key="..\:/Users/kal02/AndroidStudioProjects/SeatForU/app/src/main/res/layout/activity_editor_side.xml" value="0.44635416666666666" />
+        <entry key="..\:/Users/kal02/AndroidStudioProjects/SeatForU/app/src/main/res/layout/activity_farea.xml" value="0.3203125" />
+        <entry key="..\:/Users/kal02/AndroidStudioProjects/SeatForU/app/src/main/res/layout/activity_home.xml" value="0.4421875" />
         <entry key="..\:/Users/kal02/AndroidStudioProjects/SeatForU/app/src/main/res/layout/activity_main.xml" value="0.3609375" />
-        <entry key="..\:/Users/wizth/AndroidStudioProjects/SeatForU/app/src/main/res/layout/activity_admin_home.xml" value="0.1140625" />
-        <entry key="..\:/Users/wizth/AndroidStudioProjects/SeatForU/app/src/main/res/layout/activity_ffood.xml" value="0.33" />
-        <entry key="..\:/Users/wizth/AndroidStudioProjects/SeatForU/app/src/main/res/layout/activity_my_list.xml" value="0.33" />
-        <entry key="..\:/Users/wizth/AndroidStudioProjects/SeatForU/app/src/main/res/layout/activity_search.xml" value="0.33" />
-        <entry key="..\:/Users/wizth/AndroidStudioProjects/SeatForU/app/src/main/res/layout/activity_search_detail.xml" value="0.25" />
+        <entry key="..\:/Users/kal02/AndroidStudioProjects/SeatForU/app/src/main/res/layout/activity_search.xml" value="0.44635416666666666" />
+        <entry key="..\:/Users/kal02/AndroidStudioProjects/SeatForU/app/src/main/res/layout/activity_store_info.xml" value="0.3203125" />
+        <entry key="..\:/Users/kal02/AndroidStudioProjects/SeatForU/app/src/main/res/layout/activity_table_editer.xml" value="0.3203125" />
+        <entry key="..\:/Users/kal02/AndroidStudioProjects/SeatForU/app/src/main/res/layout/fragment_item.xml" value="0.44635416666666666" />
+        <entry key="..\:/Users/kal02/AndroidStudioProjects/SeatForU/app/src/main/res/layout/fragment_item_list.xml" value="0.4317708333333333" />
+        <entry key="..\:/Users/kal02/AndroidStudioProjects/SeatForU/app/src/main/res/layout/view_editor_levels.xml" value="0.5714285714285714" />
+        <entry key="..\:/Users/kal02/AndroidStudioProjects/SeatForU/app/src/main/res/layout/view_editor_sidebar.xml" value="0.5142857142857143" />
+        <entry key="..\:/Users/kal02/AndroidStudioProjects/SeatForU/app/src/main/res/layout/view_editor_sidebar_category.xml" value="0.4421875" />
+        <entry key="..\:/Users/kal02/AndroidStudioProjects/SeatForU/app/src/main/res/menu/menu_editor_side.xml" value="0.32708333333333334" />
       </map>
     </option>
   </component>

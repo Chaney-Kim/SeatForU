@@ -6,6 +6,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 
+/**
+ * 디버깅용 화면입니다.
+ * 어플을 시작하면 홈화면과 에디터 화면 중 어디로 갈지 선택할 수 있습니다.
+ */
 public class DebugMainActivity extends AppCompatActivity {
 
     @Override
